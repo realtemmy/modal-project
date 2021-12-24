@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: olive;
+
+}
+.container{
+    background-color: green;
+    padding: 20px;
+    border-radius: 5px;
+}
+.value{
+    font-size: 7em;
+    text-align: center;
+}
+button{
+    background-color: rgb(114, 114, 54);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: olive;
+}
+@media (max-width: 375px) {
+    button{
+        margin: 5px;
+    }
+}
